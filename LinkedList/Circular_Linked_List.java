@@ -137,24 +137,3 @@ class circular{
         return size;
     }
 }
-//public class CLL{
-//    public static void main(String[] args) {
-//        circular a = new circular();
-//        a.insertFirst(5);
-//        a.insertFirst(4);
-//        a.insertFirst(3);
-//        a.insertFirst(2);
-//        a.insertFirst(1);
-//        a.insertAtEnd(6);
-////        System.out.println(a.find(12));
-//        a.display();
-//        a.insertAfter(10,7);
-//        a.display();
-//        a.insertBefore(7,8);
-//        a.display();
-//        a.insertBefore(1,0);
-//        a.display();
-//        a.insertBefore(10,0);
-//        System.out.println(a.getSize());
-//    }
-//}
