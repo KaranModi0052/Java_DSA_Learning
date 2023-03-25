@@ -29,7 +29,6 @@ class LinkedList{
         if(tail == null){
             tail = head;
         }
-        System.out.println(tail.val);
     }
     public void insertAtEnd(int x){
         if(tail == null){
@@ -54,21 +53,6 @@ class LinkedList{
                 t = t.next;
             }
         }
-        System.out.println("null");
+        System.out.println("END");
     }
 }
-
-// Trying to execute the code... Worked Just fine.
-//public class LL {
-//    public static void main(String[] args) {
-//        LinkedList a = new LinkedList();
-//        a.insertAtFirst(4);
-//        a.insertAtFirst(3);
-//        a.insertAtFirst(2);
-//        a.insertAtFirst(1);
-//        a.insertAtEnd(5);
-//        a.display();
-//
-//    }
-//
-//}
